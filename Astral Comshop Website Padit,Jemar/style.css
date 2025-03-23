@@ -1,0 +1,61 @@
+.btn-primary {
+    background-image: linear-gradient(to right, #0d6efd, #6610f2); /* Example gradient */
+    border: none; /* Remove default border */
+    transition: background-position 0.3s ease; /* Smooth transition for hover */
+  }
+  
+  .btn-primary:hover {
+    background-position: 100% 0; /* Shift gradient on hover */
+  }
+  
+  .Astral { 
+    background-image: url('G.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Use 'white' for better readability */
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .Astral h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .Astral p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .services .bi {
+    font-size: 3rem;
+    color: #001885; /* Nice blue color */
+    margin-bottom: 20px;
+  }
+  
+  .services h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .navbar {
+    background-color: #333; /* Example dark background color */
+    color: white; /* Example white text color */
+  }
+  
+  .navbar-brand {
+    font-weight: bold; /* Make the website name bold */
+  }
+  
+  .offcanvas-title {
+    font-size: 1.5rem; /* Make the title a bit larger */
+  }
+  
+  .nav-link {
+    color: white; /* Example white text color for links */
+  }
+  
+  .dropdown-menu {
+    background-color: #222; /* Example dark background for the dropdown */
+    border: 1px solid #555; /* Example border for the dropdown */
+  }
