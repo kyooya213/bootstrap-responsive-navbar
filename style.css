@@ -1,0 +1,72 @@
+/* Basic Styles */
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #333; /* Example dark background color */
+  color: white; /* Example white text color */
+}
+
+.navbar-brand {
+  font-weight: bold; /* Make the website name bold */
+}
+
+.offcanvas-title {
+  font-size: 1.5rem; /* Make the title a bit larger */
+}
+
+.nav-link {
+  color: white; /* Example white text color for links */
+}
+
+.dropdown-menu {
+  background-color: #222; /* Example dark background for the dropdown */
+  border: 1px solid #555; /* Example border for the dropdown */
+}
+
+/* Astral Section Styles */
+.Astral { 
+  background-image: url('images/G.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Use 'white' for better readability */
+  padding: 150px 0; /* Increase padding */
+  text-align: center;
+  min-height: 100vh; /* Make it take up more vertical space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Astral h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.Astral p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+/* Services Section Styles */
+.services .bi {
+  font-size: 3rem;
+  color: #001885; /* Nice blue color */
+  margin-bottom: 20px;
+}
+
+.services h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Card Styles */
+.larger-card {
+  width: 50%; /* Occupy 50% of the row */
+}

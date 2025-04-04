@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Astral Comshop Cafe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Lato', sans-serif;
+            margin-top: 60px;
+        }
+
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+
+        .carousel-inner img {
+            object-fit: cover;
+            height: 500px;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            filter: invert(1);
+            background-color: rgba(0, 0, 0, 0.048); /* High contrast background */
+            border-radius: 50%;
+        }
+
+        .carousel-control-prev:hover,
+        .carousel-control-next:hover {
+            background-color: rgba(0, 0, 0, 0.014); /* Darker background on hover */
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.027);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+
+        .service-card-title {
+            font-weight: bold;
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .container {
+            max-width: 1200px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .navbar {
+                position: sticky;
+                top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Astral Comshop Cafe</a>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Internet Cafe Image/cyber style pc room.jpg" class="d-block w-100" alt="Cafe Image 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Modern Gaming Setup</h5>
+                    <p>Experience a state-of-the-art gaming setup in a comfortable environment.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Internet Cafe Image/first layout of pc.jpg" class="d-block w-100" alt="Cafe Image 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Spacious PC Layout</h5>
+                    <p>Our spacious layout ensures maximum comfort for all users.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Internet Cafe Image/second.jpg" class="d-block w-100" alt="Cafe Image 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>High-Performance PCs</h5>
+                    <p>Equipped with high-performance PCs for smooth gameplay and work.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Internet Cafe Image/simple.jpg" class="d-block w-100" alt="Cafe Image 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Simple & Clean</h5>
+                    <p>Our clean and minimalist design enhances the focus and productivity.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Internet Cafe Image/gaming cafe.jpg" class="d-block w-100" alt="Cafe Image 5">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Gaming Experience</h5>
+                    <p>Join us for an unforgettable gaming experience in a cozy atmosphere.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Services Section -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-5">Our Premium Services</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Internet Cafe Image/gaming.jpg" class="card-img-top" alt="Gaming">
+                    <div class="card-body">
+                        <h5 class="card-title service-card-title">Gaming PCs</h5>
+                        <p class="card-text">High-performance gaming PCs equipped for the latest games.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Internet Cafe Image/printing.jpg" class="card-img-top" alt="Printing Services">
+                    <div class="card-body">
+                        <h5 class="card-title service-card-title">Printing Services</h5>
+                        <p class="card-text">Reliable and high-quality printing, scanning, and photocopying services.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Internet Cafe Image/cafe and snacks.jpg" class="card-img-top" alt="Cafe Area">
+                    <div class="card-body">
+                        <h5 class="card-title service-card-title">Cafe Area</h5>
+                        <p class="card-text">Enjoy a variety of beverages and snacks while working or gaming.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Astral Comshop Cafe. All rights reserved. | <a href="#" class="text-light">Privacy Policy</a></p>
+    </footer>
+
+</body>
+
+</html>
